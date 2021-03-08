@@ -27,7 +27,7 @@ public class Board extends JPanel implements ActionListener {
 	@Override
 	public void actionPerformed(ActionEvent e) {
 		// TODO Auto-generated method stub
-		if(m.getMap(p.getTileX(), p.getTileY()).equals("2")){Message="KAZANDINN"; win=true;}
+		if(m.getMap(p.getTileX(), p.getTileY()).equals("2")){Message="KAZANDINNn"; win=true;}
 		repaint();
 	}
 	
